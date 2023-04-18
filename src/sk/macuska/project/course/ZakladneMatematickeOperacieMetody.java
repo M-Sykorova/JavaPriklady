@@ -18,8 +18,8 @@ public class ZakladneMatematickeOperacieMetody {
             }
         }
 
-        System.out.println("sk.macuska.project.course.Pole parnych cisel je: " + evenNumbers);
-        System.out.println("sk.macuska.project.course.Pole neparnych cisel je: " + oddNumbers);
+        System.out.println("Pole parnych cisel je: " + evenNumbers);
+        System.out.println("Pole neparnych cisel je: " + oddNumbers);
         System.out.println();
 
 
