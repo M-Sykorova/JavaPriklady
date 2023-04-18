@@ -1,4 +1,4 @@
-package Exercises;
+package sk.macuska.project.easy_exercises;
 
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package sk.macuska.project.course;
+
 public class Pole {
     public static void main(String[] args) {
         String[] auta = {"Honda", "Audi", "BMW"};

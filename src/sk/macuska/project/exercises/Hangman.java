@@ -1,3 +1,5 @@
+package sk.macuska.project.exercises;
+
 import java.lang.reflect.Array;
 import java.text.Normalizer;
 import java.util.*;

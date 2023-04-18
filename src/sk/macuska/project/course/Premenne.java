@@ -1,3 +1,5 @@
+package sk.macuska.project.course;
+
 public class Premenne {
     public static void main(String[] args) {
         String meno = "Marcela";

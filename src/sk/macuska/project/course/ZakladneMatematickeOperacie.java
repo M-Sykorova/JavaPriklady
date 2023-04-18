@@ -1,3 +1,5 @@
+package sk.macuska.project.course;
+
 import java.io.IOException;
 
 public class ZakladneMatematickeOperacie {

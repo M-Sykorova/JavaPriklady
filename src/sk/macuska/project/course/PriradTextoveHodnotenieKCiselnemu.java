@@ -1,3 +1,5 @@
+package sk.macuska.project.course;
+
 import java.text.Normalizer;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package sk.macuska.project.exercises;
+
 import java.util.Scanner;
 
 public class RockPaperScissors {

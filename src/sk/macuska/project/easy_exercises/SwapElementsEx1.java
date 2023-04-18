@@ -1,4 +1,4 @@
-package Exercises;
+package sk.macuska.project.easy_exercises;
 
 public class SwapElementsEx1 {
     public static void main(String[] args) {

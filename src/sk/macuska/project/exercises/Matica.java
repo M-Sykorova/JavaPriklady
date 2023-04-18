@@ -1,3 +1,5 @@
+package sk.macuska.project.exercises;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 

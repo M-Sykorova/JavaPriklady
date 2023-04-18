@@ -1,3 +1,5 @@
+package sk.macuska.project.exercises;
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -40,4 +42,3 @@ public class Calculator {
         }
     }
 }
-// TODO: 27. 3. 2023 prerobit na switch

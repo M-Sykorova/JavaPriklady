@@ -1,3 +1,5 @@
+package sk.macuska.project.course;
+
 import java.util.Scanner;
 
 public class HodnotenieTestu {

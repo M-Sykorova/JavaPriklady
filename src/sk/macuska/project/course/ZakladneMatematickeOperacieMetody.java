@@ -1,3 +1,5 @@
+package sk.macuska.project.course;
+
 import java.util.ArrayList;
 
 public class ZakladneMatematickeOperacieMetody {
@@ -16,8 +18,8 @@ public class ZakladneMatematickeOperacieMetody {
             }
         }
 
-        System.out.println("Pole parnych cisel je: " + evenNumbers);
-        System.out.println("Pole neparnych cisel je: " + oddNumbers);
+        System.out.println("sk.macuska.project.course.Pole parnych cisel je: " + evenNumbers);
+        System.out.println("sk.macuska.project.course.Pole neparnych cisel je: " + oddNumbers);
         System.out.println();
 
 

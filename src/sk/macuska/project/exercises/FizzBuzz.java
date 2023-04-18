@@ -1,3 +1,5 @@
+package sk.macuska.project.exercises;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -77,10 +79,6 @@ public class FizzBuzz {
 
 
 
-
-
-        // TODO POUZI FOR EACH PRE ARRAY LIST
-
         Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<Integer>();
         System.out.println("Please enter the numbers:");
@@ -120,12 +118,6 @@ public class FizzBuzz {
         }
 
      */
-
-
-
-
-
-
 
     }
 }
