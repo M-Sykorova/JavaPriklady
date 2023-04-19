@@ -20,7 +20,7 @@ public class ArrListScanSum {
         } while (number >= 0);
 
 
-        System.out.println("sk.macuska.project.course.Pole cisel je: ");
+        System.out.println("Pole cisel je: ");
         for (int n : listOfNumbers) {
             System.out.print(n + " ");
         }
