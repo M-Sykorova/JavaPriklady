@@ -7,8 +7,8 @@ import java.util.List;
 public class ExcelBasicFormulas {
     public static void main(String[] args) {
         List<Double> listOfNumbers = new ArrayList<>();
-        listOfNumbers.add(10D);
-        listOfNumbers.add(20D);
+        listOfNumbers.add(10.0);
+        listOfNumbers.add(20.0);
 
 
         System.out.println("Sucet vsetkych cisel je: " + getSum(listOfNumbers));

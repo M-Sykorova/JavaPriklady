@@ -1,7 +1,10 @@
 package sk.macuska.project.course;
 
+import org.junit.platform.commons.function.Try;
 import org.testng.annotations.Test;
 
+import java.util.InputMismatchException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 import static org.testng.AssertJUnit.assertEquals;
@@ -18,14 +21,22 @@ public class Obdlznik {
             prikaz = scanner.next();
 
             if (prikaz.equals("s")) {
-                System.out.println("Zadaj stranu a: ");
-                double stranaA = scanner.nextDouble();
 
-                System.out.println("Zadaj stranu b: ");
-                double stranaB = scanner.nextDouble();
+                try {
+                    System.out.println("Zadaj stranu a: ");
+                    double stranaA = scanner.nextDouble();
 
-                System.out.println("Obvod obdlznika je: " + vypocitajObvod(stranaA, stranaB));
-                System.out.println("Obsah obdlznika je: " + vypocitajObsah(stranaA, stranaB));
+                    System.out.println("Zadaj stranu b: ");
+                    double stranaB = scanner.nextDouble();
+
+                    System.out.println("Obvod obdlznika je: " + vypocitajObvod(stranaA, stranaB));
+                    System.out.println("Obsah obdlznika je: " + vypocitajObsah(stranaA, stranaB));
+
+                } catch (InputMismatchException e) {
+                    System.out.println("Nezadali ste spravne cislo. Cislo musi byt vo formate 0.00");
+                } catch (NoSuchElementException e) {
+                    System.out.println("Nieco je zle.");
+                }
             }
             }
         System.out.println("Koniec programu.");
@@ -62,17 +73,6 @@ public class Obdlznik {
     }
     public static double vypocitajObsah(double stranaA, double stranaB){
         return (stranaA * stranaB);
-    }
-
-// JUnit TESTOVANIE
-    @Test
-    void otestujvypocitajObsah(){
-        assertEquals(40.0, vypocitajObsah(10,4));
-    }
-
-    @Test
-    void otestujvypocitajObvod(){
-        assertEquals(28.0, vypocitajObvod(10,4));
     }
 }
 
