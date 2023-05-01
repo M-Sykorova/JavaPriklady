@@ -1,3 +1,14 @@
+/*You are interested in buying a new laptop. You check the price and you see that the price is 300$ without the 10% tax.
+
+        Create a program that:
+
+        Reads the price of the laptop
+        Reads the tax percentage
+        Prints the total amount
+        Output: "The total price of the laptop is 330$"
+
+ */
+
 package sk.macuska.project.easy_exercises;
 
 import java.util.Scanner;

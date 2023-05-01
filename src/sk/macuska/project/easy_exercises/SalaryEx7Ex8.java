@@ -1,3 +1,22 @@
+/*In a company the monthly salary of an employee is calculated by: the minimum wage 400$ per month, plus 20$ multiplied by the number of years employed, plus 30$ for each child they have.
+
+        Create a program that:
+
+        Reads the number of years employed
+        Reads the number of children the employee has
+        Prints the total amount of salary the employee makes
+        Output: "The total amount is 560$. 400$ minimum wage + 100$ for 5 years experience + 60$ for 2 kids
+The exercise is almost identical to a previous exercise with a minor change. In a company the monthly salary of an employee is calculated by minimum wage 400$ per month, plus 20$ multiply by the employment years, plus 30$ for each employee kid, plus 100$ if the employee didn't miss 1 day of work.
+
+        Create a program that:
+
+        Reads the employment years
+        Reads the number of each employee kids
+        Prints the total amount the employee must take
+        Output: "The total amount is 660$, 400$ minimum wage + 100$ for 5 years experience + 60$ for 2 kids + 100$ for not missing a day at work"
+
+ */
+
 package sk.macuska.project.easy_exercises;
 
 import java.util.Scanner;

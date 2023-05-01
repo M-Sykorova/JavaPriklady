@@ -1,3 +1,14 @@
+/*Vytvorte triedu s názvom ExcelBasicFormulas, v ktorej budú 2 základné funkcie SUM a AVERAGE, ktoré budú počítať súčet (getSum), resp. priemer hodnôt (getAverage).
+        Vstup hodnôt bude cez premenné, napr. value1 a value2.
+        Dodatočná úloha: Doplňte ďalšie funkcie a to MAX (getMax), ktorá zistí (vráti, zobrazí) najvyššie zadané číslo, ďalej funkciu MIN (getMin), ktorá zistí najnižšie
+         číslo a funkcia COUNT (getCount), ktorá zistí počet zadaných vstupných čísel.
+        Pomôcka: Môžete použiť metódu max a min triedy Math, ktorá sa nachádza štandardne v Jave (inbuilt).
+        System.out.println("The largest number of the two numbers is " + Math.max(1,2));
+        Dodatočná úloha č. 2:  Upravme metódy tak, že bude dané funkcie počítať z ľubovoľného množstva čísel.
+
+ */
+
+
 package sk.macuska.project.course;
 
 import java.util.ArrayList;
